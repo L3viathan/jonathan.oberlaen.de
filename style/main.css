@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Alte DIN';
-    src: url('style/AlteDIN.woff2') format('woff2'),
-    url('style/AlteDIN.woff') format('woff');
+    src: url('AlteDIN.woff2') format('woff2'),
+    url('AlteDIN.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -40,7 +40,7 @@ a {
     padding: 5px;
     transition: box-shadow 0.25s, transform 0.15s;
     border-radius: 5px;
-    background: url("img/card.jpg");
+    background: url("../img/card.jpg");
     background-attachment: fixed;
 }
 .mini .card {
