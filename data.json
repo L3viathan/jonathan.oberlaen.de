@@ -24,6 +24,7 @@
             },
             {
                 "key": "Github",
+                "link": "https://github.com/L3viathan",
                 "mana": ["sub"]
             },
             {
@@ -50,37 +51,37 @@
             {
                 "key": "aceto",
                 "mana": ["sgu"],
-                "summary": "Stack-based language on a 2D hilbert curve"
+                "summary": "stack-based language on a 2D Hilbert curve"
             },
             {
                 "key": "OIL",
                 "mana": ["sur"],
-                "summary": "Weakly types turing-machine-y language"
+                "summary": "weakly typed Turing-machine-y language"
             },
             {
                 "key": "basil",
                 "mana": ["sgu"],
-                "summary": "Message based/actor model programming language"
+                "summary": "message based/actor model programming language"
             },
             {
                 "key": "pyffman",
                 "mana": ["sbr"],
-                "summary": "Huffman-encoded Python"
+                "summary": "Huffman-encoded python"
             },
             {
                 "key": "nohtyp",
                 "mana": ["sur"],
-                "summary": "a shitty version of PyPy"
+                "summary": "a shitty version of pypy"
             },
             {
                 "key": "ancys",
                 "mana": ["sub"],
-                "summary": "Forcefully asyncronous programming language"
+                "summary": "forcefully asyncronous programming language"
             },
             {
                 "key": "balsamico",
                 "mana": ["srg"],
-                "summary": "Text editor for Aceto"
+                "summary": "text editor for aceto"
             }
         ]
     },
@@ -95,7 +96,7 @@
             {
                 "key": "lazex",
                 "mana": ["sub"],
-                "summary": "Lazy Expressions"
+                "summary": "lazy expressions"
             },
             {
                 "key": "threemorrow",
@@ -110,7 +111,7 @@
             {
                 "key": "gofuncyourself",
                 "mana": ["sbr"],
-                "summary": "Go-like exception handling"
+                "summary": "go-like exception handling"
             },
             {
                 "key": "volkswagen",
@@ -132,21 +133,21 @@
                 "title": "BSc thesis",
                 "mana": ["swu"],
                 "link": "https://github.com/L3viathan/lqv-autodetect-thesis",
-                "summary": "Ungrammaticality detection"
+                "summary": "ungrammaticality detection"
             },
             {
                 "key": "wmt",
                 "title": "WMT paper",
                 "mana": ["su"],
                 "link": "https://github.com/L3viathan/wmt16",
-                "summary": "Using position similarity and language modeling for bilingual document alignment"
+                "summary": "using position similarity and language modeling for bilingual document alignment"
             },
             {
                 "key": "MSc",
                 "title": "MSc thesis",
                 "mana": ["swu"],
                 "link": "https://github.com/L3viathan/compound-splitter",
-                "summary": "Splitting Word Compounds"
+                "summary": "splitting word compounds"
             }
         ]
     },
@@ -161,7 +162,7 @@
             {
                 "key": "progressify",
                 "mana": ["swu"],
-                "summary": "Pythonic progress bars"
+                "summary": "pythonic progress bars"
             },
             {
                 "key": "crun",
