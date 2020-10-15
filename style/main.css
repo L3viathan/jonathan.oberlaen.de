@@ -5,15 +5,12 @@
     font-weight: normal;
     font-style: normal;
 }
+
 * {
     font-family: Tahoma;
 }
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: flex-start;
-    align-content: flex-start;
+body {
+    background: #BEDFF1;
 }
 header {
     font-size: 200%;
@@ -23,6 +20,18 @@ header {
 }
 h1, h2, h3, header {
     font-family: "Alte DIN", Arial, sans-serif;
+}
+a {
+    text-decoration: inherit;
+    color: inherit;
+    outline: none;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
 }
 .card {
     box-shadow: 0px 0px 5px #ababab;
@@ -68,14 +77,6 @@ a>.card:hover img, a>.card.tapped img {
     padding: 5px;
     background-color: white;
     border-radius: 0 0 6px 6px;
-}
-a {
-    text-decoration: inherit;
-    color: inherit;
-    outline: none;
-}
-body {
-    background: #BEDFF1;
 }
 .mana.tapper {
     position: absolute;
