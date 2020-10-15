@@ -1,0 +1,173 @@
+[
+    {
+        "type": "mini",
+        "items": [
+            {
+                "link": "mailto:jonathan@oberlaen.de",
+                "key": "Email",
+                "mana": ["swu"]
+            },
+            {
+                "link": "https://twitter.com/L3viathan2142",
+                "key": "Twitter",
+                "mana": ["sbr"]
+            },
+            {
+                "link": "https://mastodon.social/L3viathan",
+                "key": "Mastodon",
+                "mana": ["srg"]
+            },
+            {
+                "link": "https://stackoverflow.com/users/1016216/l3viathan?tab=profile",
+                "key": "StackOverflow",
+                "mana": ["sgw"]
+            },
+            {
+                "key": "Github",
+                "mana": ["sub"]
+            },
+            {
+                "link": "https://www.xing.com/profile/Jonathan_Oberlaender2/",
+                "key": "XING",
+                "mana": ["sub"]
+            },
+            {
+                "link": "https://www.linkedin.com/in/l3viathan/",
+                "key": "LinkedIn",
+                "mana": ["sub"]
+            },
+            {
+                "link": "https://www.nytimes.com/2011/03/20/fashion/20Cultural.html",
+                "key": "Phone",
+                "mana": ["swb"]
+            }
+        ]
+    },
+    {
+        "h1": "Projects",
+        "h2": "Esoteric programming languages",
+        "items": [
+            {
+                "key": "aceto",
+                "mana": ["sgu"],
+                "summary": "Stack-based language on a 2D hilbert curve"
+            },
+            {
+                "key": "OIL",
+                "mana": ["sur"],
+                "summary": "Weakly types turing-machine-y language"
+            },
+            {
+                "key": "basil",
+                "mana": ["sgu"],
+                "summary": "Message based/actor model programming language"
+            },
+            {
+                "key": "pyffman",
+                "mana": ["sbr"],
+                "summary": "Huffman-encoded Python"
+            },
+            {
+                "key": "nohtyp",
+                "mana": ["sur"],
+                "summary": "a shitty version of PyPy"
+            },
+            {
+                "key": "ancys",
+                "mana": ["sub"],
+                "summary": "Forcefully asyncronous programming language"
+            },
+            {
+                "key": "balsamico",
+                "mana": ["srg"],
+                "summary": "Text editor for Aceto"
+            }
+        ]
+    },
+    {
+        "h2": "Python metaprogramming / magic",
+        "items": [
+            {
+                "key": "pypes",
+                "mana": ["swu"],
+                "summary": "shell-like functional pypes"
+            },
+            {
+                "key": "lazex",
+                "mana": ["sub"],
+                "summary": "Lazy Expressions"
+            },
+            {
+                "key": "threemorrow",
+                "mana": ["swu"],
+                "summary": "transparent threading (twomorrow fork)"
+            },
+            {
+                "key": "spelcheck",
+                "mana": ["swb"],
+                "summary": "spellcheck your classes"
+            },
+            {
+                "key": "gofuncyourself",
+                "mana": ["sbr"],
+                "summary": "Go-like exception handling"
+            },
+            {
+                "key": "volkswagen",
+                "mana": ["sb"],
+                "summary": "make your tests pass automatically in a CI environment"
+            },
+            {
+                "key": "autotest",
+                "mana": ["sbr"],
+                "summary": "automatic generation of tests"
+            }
+        ]
+    },
+    {
+        "h2": "Academic work",
+        "items": [
+            {
+                "key": "BSc",
+                "title": "BSc thesis",
+                "mana": ["swu"],
+                "link": "https://github.com/L3viathan/lqv-autodetect-thesis",
+                "summary": "Ungrammaticality detection"
+            },
+            {
+                "key": "wmt",
+                "title": "WMT paper",
+                "mana": ["su"],
+                "link": "https://github.com/L3viathan/wmt16",
+                "summary": "Using position similarity and language modeling for bilingual document alignment"
+            },
+            {
+                "key": "MSc",
+                "title": "MSc thesis",
+                "mana": ["swu"],
+                "link": "https://github.com/L3viathan/compound-splitter",
+                "summary": "Splitting Word Compounds"
+            }
+        ]
+    },
+    {
+        "h2": "Other stuff",
+        "items": [
+            {
+                "key": "zwonullvieracht",
+                "mana": ["srw"],
+                "summary": "2048 clone"
+            },
+            {
+                "key": "progressify",
+                "mana": ["swu"],
+                "summary": "Pythonic progress bars"
+            },
+            {
+                "key": "crun",
+                "mana": ["sw"],
+                "summary": "config runner (similar to Make)"
+            }
+        ]
+    }
+]

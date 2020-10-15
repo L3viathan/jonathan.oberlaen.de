@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Jonathan Oberländer</title>
+        <link rel="stylesheet" href="style/main.css">
+        <link rel="stylesheet" href="style/mana-cost.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="card">
+                <header><i class="mana small sb"></i><i class="mana small su"></i><i class="mana small sw"></i>Jonathan</header>
+                <img src="img/me.jpg" alt="">
+            </div>
+            <div class="card wide">
+                <h3>Hello!</h3>
+
+                <p>
+                    My name is Jonathan Oberländer. I currently work as a
+                    software developer for <a
+                    href="https://www.vmray.com/">VMRay</a>, previously I've
+                been at <a href="https://solute.de">solute</a> and <a
+                    href="https://dc1.com">DC1</a>.
+                </p>
+
+                <p>
+                    Outside of professional (paid-for) work, I enjoy esoteric programming languages, Unicode shenanigans, metaprogramming, music, mountaineering, distributional gastronomics, applied galettalogy, card magic, lock picking, and playing board as well as video games, in no particular order.
+                </p>
+                <p>
+                    After graduating high school, I spent a year doing a European Voluntary Service at <a href="http://experimental.gr/">TES</a> in Βροντάδος, Χίος, Greece.
+                    I then did a BSc in <a href="http://www.coli.uni-saarland.de/">Computational Linguistics at Saarland University</a>, followed by the <a href="https://lct-master.org/">LCT master program</a>, during which I obtained an MSc in Cognitive Science from <a href="https://www.unitn.it/">Trento University</a>, and an MSc in Computer Science from <a href="https://cuni.cz/UK-1.html">Charles University in Prague</a>.
+                </p>
+            </div>
+        </div>
+{% for part in parts %}
+    {% if "h1" in part %}
+        <h1>{{part["h1"]}}</h1>
+    {% endif %}
+    {% if "h2" in part %}
+        <h2>{{part["h2"]}}</h2>
+    {% endif %}
+        <div class="container{% if part["type"] == "mini" %} mini{% endif %}">
+        {% for item in part["items"] %}
+            <a href="{% if "link" in part %}{{link}}{% else %}https://github.com/L3viathan/{{item["key"] | lower}}{% endif %}">
+                <div class="card">
+                    <header>
+                        {% for m in item["mana"] %}<i class="mana small {{m}}"></i>{% endfor %}
+                        {% if "title" in item %}{{item["title"]}}{% else %}{{item["key"]}}{% endif %}
+                    </header>
+                    <i class="mana tapper st"></i>
+                    <img src="img/{{item["key"] | lower}}.jpg" alt="">
+                    {% if "summary" in item %}<div class="summary">
+                        {{item["summary"]}}
+                    </div>{% endif %}
+                </div>
+            </a>{% endfor %}
+        </div>{% endfor %}
+        <script>
+            var cards = document.querySelectorAll(".card");
+            for (card of cards) {
+                card.addEventListener("click", function(){
+                    this.classList.add("tapped");
+                    var element = this;
+                    window.setTimeout(function(){
+                        element.classList.remove("tapped")
+                    }, 1500)
+                })}
+        </script>
+    </body>
+</html>
