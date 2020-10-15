@@ -41,7 +41,7 @@
     {% endif %}
         <div class="container{% if part["type"] == "mini" %} mini{% endif %}">
         {% for item in part["items"] %}
-            <a href="{% if "link" in part %}{{link}}{% else %}https://github.com/L3viathan/{{item["key"] | lower}}{% endif %}">
+            <a href="{% if "link" in item %}{{item["link"]}}{% else %}https://github.com/L3viathan/{{item["key"] | lower}}{% endif %}">
                 <div class="card">
                     <header>
                         {% for m in item["mana"] %}<i class="mana small {{m}}"></i>{% endfor %}
