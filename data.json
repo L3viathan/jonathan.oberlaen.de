@@ -30,12 +30,12 @@
             {
                 "link": "https://www.xing.com/profile/Jonathan_Oberlaender2/",
                 "key": "XING",
-                "mana": ["sub"]
+                "mana": ["sw"]
             },
             {
                 "link": "https://www.linkedin.com/in/l3viathan/",
                 "key": "LinkedIn",
-                "mana": ["sub"]
+                "mana": ["sw"]
             },
             {
                 "link": "https://www.nytimes.com/2011/03/20/fashion/20Cultural.html",
@@ -152,13 +152,8 @@
         ]
     },
     {
-        "h2": "Other stuff",
+        "h2": "Tools",
         "items": [
-            {
-                "key": "zwonullvieracht",
-                "mana": ["srw"],
-                "summary": "2048 clone"
-            },
             {
                 "key": "progressify",
                 "mana": ["swu"],
@@ -168,6 +163,49 @@
                 "key": "crun",
                 "mana": ["sw"],
                 "summary": "config runner (similar to Make)"
+            },
+            {
+                "key": "depex",
+                "mana": ["swu"],
+                "summary": "dependency manager for experiments"
+            },
+            {
+                "key": "SSHit",
+                "mana": ["sr"],
+                "summary": "distribute commands to multiple hosts via SSH"
+            }
+        ]
+    },
+    {
+        "h2": "Other",
+        "items": [
+            {
+                "key": "mockchain",
+                "mana": ["sub"],
+                "summary": "experimental local cryptocoin currency"
+            },
+            {
+                "key": "schikanoeschen",
+                "title": "Schikanöschen",
+                "mana": ["srw"],
+                "summary": "rules for a two-player card game"
+            },
+            {
+                "key": "estiovoara",
+                "title": "-ești, -ov, -oara",
+                "mana": ["su"],
+                "link": "https://static.l3vi.de/esti-ov-oara/",
+                "summary": "an investigation of Romanian town and village names"
+            },
+            {
+                "key": "zwonullvieracht",
+                "mana": ["srw"],
+                "summary": "2048 clone"
+            },
+            {
+                "key": "httrip",
+                "mana": ["sur"],
+                "summary": "tiny HTTP framework based on Trio"
             }
         ]
     }
