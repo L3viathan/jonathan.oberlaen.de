@@ -32,15 +32,10 @@
                 </p>
             </div>
         </div>
-{% for part in parts %}
-    {% if "h1" in part %}
-        <h1>{{part["h1"]}}</h1>
-    {% endif %}
-    {% if "h2" in part %}
-        <h2>{{part["h2"]}}</h2>
-    {% endif %}
-        <div class="container{% if part["type"] == "mini" %} mini{% endif %}">
-        {% for item in part["items"] %}
+{% for part in parts %}{% if "h1" in part %}
+        <h1>{{part["h1"]}}</h1>{% endif %}{% if "h2" in part %}
+        <h2>{{part["h2"]}}</h2>{% endif %}
+        <div class="container{% if part["type"] == "mini" %} mini{% endif %}">{% for item in part["items"] %}
             <a href="{% if "link" in item %}{{item["link"]}}{% else %}https://github.com/L3viathan/{{item["key"] | lower}}{% endif %}">
                 <div class="card">
                     <header>
@@ -48,8 +43,8 @@
                         {% if "title" in item %}{{item["title"]}}{% else %}{{item["key"]}}{% endif %}
                     </header>
                     <i class="mana tapper st"></i>
-                    <img src="img/{{item["key"] | lower}}.jpg" alt="">
-                    {% if "summary" in item %}<div class="summary">
+                    <img src="img/{{item["key"] | lower}}.jpg" alt="">{% if "summary" in item %}
+                    <div class="summary">
                         {{item["summary"]}}
                     </div>{% endif %}
                 </div>
