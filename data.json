@@ -143,6 +143,12 @@
                 "summary": "using position similarity and language modeling for bilingual document alignment"
             },
             {
+                "key": "gastrovec",
+                "mana": ["srg"],
+                "link": "http://esslli-stus-2015.phil.hhu.de/esslli-stus-2015-proceedings.pdf#page=202",
+                "summary": "distributional gastronomics"
+            },
+            {
                 "key": "MSc",
                 "title": "MSc thesis",
                 "mana": ["swu"],
