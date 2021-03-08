@@ -122,6 +122,11 @@
                 "key": "autotest",
                 "mana": ["sbr"],
                 "summary": "automatic generation of tests"
+            },
+            {
+                "key": "typeanno",
+                "mana": ["swb"],
+                "summary": "value restriction of class members as type annotations"
             }
         ]
     },
