@@ -83,11 +83,11 @@ a>.card:hover img, a>.card.tapped img {
     margin: 2em;
     width: 12em;
     height: 12em;
-    opacity: 0%;
+    opacity: 0;
     filter: invert(100%);
     z-index: 1;
     transition: opacity 0.15s;
 }
 a>.card:hover>.tapper, a>.card.tapped>.tapper {
-    opacity: 100%;
+    opacity: 1;
 }
