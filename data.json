@@ -217,6 +217,11 @@
                 "key": "httrip",
                 "mana": ["sur"],
                 "summary": "tiny HTTP framework based on Trio"
+            },
+            {
+                "key": "cuneiform",
+                "mana": ["sw"],
+                "summary": "a small ORM for postgres"
             }
         ]
     }
