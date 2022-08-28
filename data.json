@@ -127,6 +127,11 @@
                 "key": "typeanno",
                 "mana": ["swb"],
                 "summary": "value restriction of class members as type annotations"
+            },
+            {
+                "key": "batchable",
+                "mana": ["swb"],
+                "summary": "simple request batching"
             }
         ]
     },
