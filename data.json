@@ -132,6 +132,11 @@
                 "key": "batchable",
                 "mana": ["swb"],
                 "summary": "simple request batching"
+            },
+            {
+                "key": "astral-projection",
+                "mana": ["sur"],
+                "summary": "seemless remote code execution"
             }
         ]
     },
