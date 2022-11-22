@@ -116,8 +116,8 @@
             {
                 "key": "volkswagen",
                 "mana": ["sb"],
-                "summary": "make your tests pass automatically in a CI environment"
-                "link": "https://github.com/L3viathan/pyvw",
+                "summary": "make your tests pass automatically in a CI environment",
+                "link": "https://github.com/L3viathan/pyvw"
             },
             {
                 "key": "autotest",
