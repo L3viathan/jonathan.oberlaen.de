@@ -8,11 +8,6 @@
                 "mana": ["swu"]
             },
             {
-                "link": "https://twitter.com/L3viathan2142",
-                "key": "Twitter",
-                "mana": ["sbr"]
-            },
-            {
                 "link": "https://mastodon.social/L3viathan",
                 "key": "Mastodon",
                 "mana": ["srg"]
